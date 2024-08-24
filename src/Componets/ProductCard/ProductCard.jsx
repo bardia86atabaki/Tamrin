@@ -1,10 +1,10 @@
 function ProductCard(props){
 
 return(
-    <div>
-        <img src={props.image} alt="" />
-        <p>{props.title}</p>
-        <p>{props.price}</p>
+    <div className="ProductCard">
+        <img className="Image" src={props.image} alt="" />
+        <p className="txt1">{props.name}</p>
+        <p className="txt2">{props.price}</p>
     </div>
 )
 }

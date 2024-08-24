@@ -1,28 +1,19 @@
-.ProductList{
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    width: 900px;
-    height: 300px;
-    justify-content: space-between;
-    gap: 10px;
-    margin-top: 100px;
-  }
-  
-  .txt{
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    margin-bottom: 40px;
-    margin-left: 20px;
-    justify-content: space-between;
-    color: black;
-    background-color: white;
-  }
-  .ProductText{
-    display: flex;
-    width: 150px;
-    flex-direction: column;
-  
+
+.Product_list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 90px;
+  margin-top: 30px;
+  height: 350px;
+}
+.Image{
+  width: 150px;
+}
+.txt1{
+margin-bottom: 50px;
+font-weight: bold;
+}
+.txt2{
+  margin-bottom: 50px;
+  font-weight: bold;
   }
